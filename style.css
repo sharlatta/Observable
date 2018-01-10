@@ -1,18 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+.hearts {
+    background: url("./assets/img/hearts.gif");
+}
+
 #runningBunny {
-    background: url("./assets/img/blueBunny.jpg");
+    background: url("./assets/img/blueBunny.png") no-repeat;
     background-size: contain;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     position: absolute;
     z-index: 1;
 }
 
 #waitingBunny {
-    background: url("./assets/img/pinkBunny.png");
+    background: url("./assets/img/pinkBunny.png") no-repeat;
     background-size: contain;
     width: 200px;
     height: 200px;
-    position: absolute;
-    top: 500px;
-    left: 1000px;
+    margin-top: 200px;
+    margin-left: 500px;
 }
