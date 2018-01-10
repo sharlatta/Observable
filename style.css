@@ -1,0 +1,18 @@
+#runningBunny {
+    background: url("./assets/img/blueBunny.jpg");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+#waitingBunny {
+    background: url("./assets/img/pinkBunny.png");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+}
